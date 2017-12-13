@@ -2,13 +2,8 @@
 /* GLOBAL */
 
 html {
-
-}
-
-h2,
-h3,
-h4 {
-  color: darkblue;
+  color: #4A4A4A;
+  font-family: Work sans;
 }
 
 h2 {
@@ -23,6 +18,10 @@ h3 {
 
 h4 {
   font-size: 26px;
+}
+
+a {
+  color: #4A4A4A;
 }
 
 /* EXTRAS */
@@ -54,12 +53,12 @@ h4 {
 }
 
 .bar #colmar {
-  color: darkblue;
+  color: #464646;
   font-weight: bold;
 }
 
 .bar #academy {
-  color: grey;
+  color: #A9A9A9;
 }
 
 
@@ -80,7 +79,7 @@ h4 {
 
 .banner {
   display: flex;
-  background-color: grey;
+  background-color: #D8D8D8;
   align-items: center;
 }
 
@@ -102,7 +101,7 @@ h4 {
   margin-top: 24px;
   text-align: center;
   display: flex;
-  background-color: darkblue;
+  background-color: #4A4A4A;
 }
 
 .banner #buttom {
@@ -140,11 +139,23 @@ h4 {
   width: 40%;
 }
 
+.content .line-left {
+  border-left: 1px solid #EAEBED;
+  }
+
 .content .topic {
-  margin: 32px 16px;
+  padding: 16px 16px;
   display: flex;
   justify-content: flex-start;
 }
+
+.content #extra_padding {
+  padding: 32px 16px 16px 16px;
+}
+
+.content .line-bottom{
+  border-bottom: 1px solid #EAEBED;
+  }
 
 .content .topic .image {
   width: 35%;
@@ -172,6 +183,7 @@ h4 {
 /* LEARNING */
 
 .learning {
+  background-color: #EAEBED;
   display: flex;
   flex-direction: column;
 }
@@ -189,6 +201,7 @@ h4 {
 }
 
 .learning .topics .topic {
+  background-color: white;
   margin: 16px;
   width: 30%;
   display: flex;
@@ -232,6 +245,7 @@ h4 {
 /* FOOTER */
 
 footer {
+  border-top: 1px solid #EAEBED;
   padding: 16px 24px 48px 24px;
   display: flex;
   justify-content: space-between;
@@ -239,6 +253,10 @@ footer {
 
 footer nav ul {
   display: flex;
+}
+
+footer nav ul li {
+  margin-left: 10px;
 }
 
 /* MEDIA QUERRYS */
