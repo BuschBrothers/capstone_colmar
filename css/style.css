@@ -135,8 +135,9 @@ a {
 }
 
 .banner #start_buttom {
-  padding: 10px 150px;
+  padding: 10px 30%;
   margin-top: 24px;
+
   background-color: #4A4A4A;
   color: white;
 }
@@ -145,7 +146,7 @@ a {
   background-color: darkblue;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 800px) {
 
   .banner {
     flex-direction: column;
@@ -255,7 +256,7 @@ a {
   margin: 10px auto 10px 0;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 800px) {
 
   .content .desktop {
     display: none;
@@ -333,7 +334,7 @@ a {
   margin: 10px auto 10px 0;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 800px) {
 
   .learning {
     border-top: 1px solid #EAEBED;
@@ -394,7 +395,7 @@ a {
   margin: 24px auto 10px 0;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 800px) {
 
   .exhibit {
     border-top: 1px solid #EAEBED;
@@ -428,7 +429,7 @@ footer nav ul li {
   margin-left: 10px;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 800px) {
 
   footer .desktop {
     display: none;
